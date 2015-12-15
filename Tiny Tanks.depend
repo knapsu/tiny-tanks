@@ -1,0 +1,560 @@
+# depslib dependency file v1.0
+1116544168 c:\development\workspace\tiny tanks\tank.cpp
+	"Tank.hpp"
+
+1116544160 
+
+1116544168 c:\development\workspace\tiny tanks\tank.hpp
+	<cstdlib>
+	"SDL/SDL.h"
+	"Renderable.hpp"
+
+1116544170 e.hpp"
+
+1116544166 c:\development\workspace\tiny tanks\main.cpp
+	<iostream>
+	"Game.hpp"
+
+1117880330 c:\development\workspace\tiny tanks\game.cpp
+	"Game.hpp"
+
+1116793284 c:\development\workspace\tiny tanks\game.hpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<cstdlib>
+	<ctime>
+	<string>
+	<vector>
+	<map>
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	"SDL/SDL_mixer.h"
+	"SDL/SDL_ttf.h"
+	"Player.hpp"
+	"Level.hpp"
+	"Tank.hpp"
+	"Tile.hpp"
+	"Bullet.hpp"
+	"Text.hpp"
+	"Audio.hpp"
+	"Animation.hpp"
+
+1116790654 .hpp"
+
+1116544166 c:\development\workspace\tiny tanks\player.cpp
+	"Player.hpp"
+
+1116544160 p"
+
+1117725595 c:\development\workspace\tiny tanks\player.hpp
+	"SDL/SDL.h"
+	"Controls.hpp"
+	"Tank.hpp"
+
+1116544168 c:\development\workspace\tiny tanks\renderable.hpp
+	"SDL/SDL.h"
+	"Collidable.hpp"
+
+1115058614 c:\development\workspace\tiny tanks\renderable.cpp
+	"Renderable.hpp"
+	<iostream>
+
+1117880193 c:\development\workspace\tiny tanks\collidable.hpp
+	"SDL/SDL.h"
+
+1116544160 "
+
+1117880211 c:\development\workspace\tiny tanks\collidable.cpp
+	"Collidable.hpp"
+
+1116544162 c:\development\workspace\tiny tanks\controls.hpp
+	"SDL/SDL.h"
+
+1116544162 c:\development\workspace\tiny tanks\controls.cpp
+	"Controls.hpp"
+
+1116544162 hpp"
+
+1117726798 c:\development\workspace\tiny tanks\tile.hpp
+	"SDL/SDL.h"
+	"Renderable.hpp"
+
+1117726924 c:\development\workspace\tiny tanks\tile.cpp
+	"Tile.hpp"
+
+1116372579 c:\development\workspace\tiny tanks\font.cpp
+	"Font.hpp"
+
+1116372577 c:\development\workspace\tiny tanks\font.hpp
+	"SDL/SDL_ttf.h"
+	<string>
+	"Renderable.hpp"
+
+1116544166 c:\development\workspace\tiny tanks\level.hpp
+	<vector>
+
+1116544166 c:\development\workspace\tiny tanks\level.cpp
+	"Level.hpp"
+
+1116790654 c:\development\workspace\tiny tanks\animation.cpp
+	"Animation.hpp"
+
+1116790566 c:\development\workspace\tiny tanks\animation.hpp
+	"SDL/SDL.h"
+	"Renderable.hpp"
+
+1116544160 c:\development\workspace\tiny tanks\audio.cpp
+	"Audio.hpp"
+
+1116544160 c:\development\workspace\tiny tanks\audio.hpp
+	"SDL/SDL.h"
+	"SDL/SDL_mixer.h"
+	<iostream>
+	<string>
+
+1116544160 c:\development\workspace\tiny tanks\bullet.cpp
+	"Bullet.hpp"
+
+1116544162 c:\development\workspace\tiny tanks\bullet.hpp
+	"SDL/SDL.h"
+	"Tank.hpp"
+
+1116544170 c:\development\workspace\tiny tanks\text.hpp
+	"SDL/SDL_ttf.h"
+	<string>
+	"Renderable.hpp"
+
+1116544170 c:\development\workspace\tiny tanks\text.cpp
+	"Text.hpp"
+
+1077092518 c:\development\libraries\sdl-1.2.8\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_types.h"
+	"SDL_getenv.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_timer.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_joystick.h"
+	"SDL_events.h"
+	"SDL_video.h"
+	"SDL_byteorder.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1103145238 e.h"
+
+1077092518 c:\development\libraries\sdl-1.2.8\include\sdl\sdl_main.h
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1102892072 c:\development\libraries\sdl-1.2.8\include\sdl\sdl_types.h
+
+1077092518 c:\development\libraries\sdl-1.2.8\include\sdl\begin_code.h
+
+1077092518 c:\development\libraries\sdl-1.2.8\include\sdl\close_code.h
+
+1023525732 c:\development\libraries\sdl-1.2.8\include\sdl\sdl_getenv.h
+	"begin_code.h"
+	"close_code.h"
+
+1102892070 c:\development\libraries\sdl-1.2.8\include\sdl\sdl_error.h
+	"begin_code.h"
+	"close_code.h"
+
+1102892072 c:\development\libraries\sdl-1.2.8\include\sdl\sdl_rwops.h
+	<stdio.h>
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1077092518 c:\development\libraries\sdl-1.2.8\include\sdl\sdl_timer.h
+	"SDL_main.h"
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1102892070 c:\development\libraries\sdl-1.2.8\include\sdl\sdl_audio.h
+	<stdio.h>
+	"SDL_main.h"
+	"SDL_types.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_byteorder.h"
+	"begin_code.h"
+	"close_code.h"
+
+1102892070 c:\development\libraries\sdl-1.2.8\include\sdl\sdl_byteorder.h
+
+1102892070 c:\development\libraries\sdl-1.2.8\include\sdl\sdl_cdrom.h
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1102892070 c:\development\libraries\sdl-1.2.8\include\sdl\sdl_joystick.h
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1102892070 c:\development\libraries\sdl-1.2.8\include\sdl\sdl_events.h
+	"SDL_types.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1077092518 c:\development\libraries\sdl-1.2.8\include\sdl\sdl_active.h
+	"begin_code.h"
+	"close_code.h"
+
+1102892070 c:\development\libraries\sdl-1.2.8\include\sdl\sdl_keyboard.h
+	"SDL_types.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1077092518 c:\development\libraries\sdl-1.2.8\include\sdl\sdl_keysym.h
+
+1102892070 c:\development\libraries\sdl-1.2.8\include\sdl\sdl_mouse.h
+	"SDL_types.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1102892072 c:\development\libraries\sdl-1.2.8\include\sdl\sdl_video.h
+	<stdio.h>
+	"SDL_types.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1077092518 c:\development\libraries\sdl-1.2.8\include\sdl\sdl_mutex.h
+	"SDL_main.h"
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1077092518 c:\development\libraries\sdl-1.2.8\include\sdl\sdl_quit.h
+
+1102892072 c:\development\libraries\sdl-1.2.8\include\sdl\sdl_version.h
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1103144658 c:\development\libraries\sdl-1.2.8\include\sdl\sdl_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_byteorder.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1103144162 c:\development\libraries\sdl-1.2.8\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1103145238 c:\development\libraries\sdl-1.2.8\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1077092518 c:\development\sdl-1.2.8\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_types.h"
+	"SDL_getenv.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_timer.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_joystick.h"
+	"SDL_events.h"
+	"SDL_video.h"
+	"SDL_byteorder.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1077092518 c:\development\sdl-1.2.8\include\sdl\sdl_main.h
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1102892072 c:\development\sdl-1.2.8\include\sdl\sdl_types.h
+
+1077092518 c:\development\sdl-1.2.8\include\sdl\begin_code.h
+
+1077092518 c:\development\sdl-1.2.8\include\sdl\close_code.h
+
+1023525732 c:\development\sdl-1.2.8\include\sdl\sdl_getenv.h
+	"begin_code.h"
+	"close_code.h"
+
+1102892070 c:\development\sdl-1.2.8\include\sdl\sdl_error.h
+	"begin_code.h"
+	"close_code.h"
+
+1102892072 c:\development\sdl-1.2.8\include\sdl\sdl_rwops.h
+	<stdio.h>
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1077092518 c:\development\sdl-1.2.8\include\sdl\sdl_timer.h
+	"SDL_main.h"
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1102892070 c:\development\sdl-1.2.8\include\sdl\sdl_audio.h
+	<stdio.h>
+	"SDL_main.h"
+	"SDL_types.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_byteorder.h"
+	"begin_code.h"
+	"close_code.h"
+
+1102892070 c:\development\sdl-1.2.8\include\sdl\sdl_byteorder.h
+
+1102892070 c:\development\sdl-1.2.8\include\sdl\sdl_cdrom.h
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1102892070 c:\development\sdl-1.2.8\include\sdl\sdl_joystick.h
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1102892070 c:\development\sdl-1.2.8\include\sdl\sdl_events.h
+	"SDL_types.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1077092518 c:\development\sdl-1.2.8\include\sdl\sdl_active.h
+	"begin_code.h"
+	"close_code.h"
+
+1102892070 c:\development\sdl-1.2.8\include\sdl\sdl_keyboard.h
+	"SDL_types.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1077092518 c:\development\sdl-1.2.8\include\sdl\sdl_keysym.h
+
+1102892070 c:\development\sdl-1.2.8\include\sdl\sdl_mouse.h
+	"SDL_types.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1102892072 c:\development\sdl-1.2.8\include\sdl\sdl_video.h
+	<stdio.h>
+	"SDL_types.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1077092518 c:\development\sdl-1.2.8\include\sdl\sdl_mutex.h
+	"SDL_main.h"
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1077092518 c:\development\sdl-1.2.8\include\sdl\sdl_quit.h
+
+1102892072 c:\development\sdl-1.2.8\include\sdl\sdl_version.h
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1103144658 c:\development\sdl-1.2.8\include\sdl\sdl_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_byteorder.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1103144162 c:\development\sdl-1.2.8\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1103145238 c:\development\sdl-1.2.8\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1116790654 source:/home/knapsu/dev/workspace/Tiny Tanks/Animation.cpp
+	"Animation.hpp"
+
+1116790566 /home/knapsu/dev/workspace/Tiny Tanks/Animation.hpp
+	"SDL/SDL.h"
+	"Renderable.hpp"
+
+1116544168 /home/knapsu/dev/workspace/Tiny Tanks/Renderable.hpp
+	"SDL/SDL.h"
+	"Collidable.hpp"
+
+1117880194 /home/knapsu/dev/workspace/Tiny Tanks/Collidable.hpp
+	"SDL/SDL.h"
+
+1116544160 source:/home/knapsu/dev/workspace/Tiny Tanks/Audio.cpp
+	"Audio.hpp"
+
+1116544160 /home/knapsu/dev/workspace/Tiny Tanks/Audio.hpp
+	"SDL/SDL.h"
+	"SDL/SDL_mixer.h"
+	<iostream>
+	<string>
+
+1116544160 source:/home/knapsu/dev/workspace/Tiny Tanks/Bullet.cpp
+	"Bullet.hpp"
+
+1116544162 /home/knapsu/dev/workspace/Tiny Tanks/Bullet.hpp
+	"SDL/SDL.h"
+	"Tank.hpp"
+
+1116544168 /home/knapsu/dev/workspace/Tiny Tanks/Tank.hpp
+	<cstdlib>
+	"SDL/SDL.h"
+	"Renderable.hpp"
+
+1117880212 source:/home/knapsu/dev/workspace/Tiny Tanks/Collidable.cpp
+	"Collidable.hpp"
+
+1116544162 source:/home/knapsu/dev/workspace/Tiny Tanks/Controls.cpp
+	"Controls.hpp"
+
+1116544162 /home/knapsu/dev/workspace/Tiny Tanks/Controls.hpp
+	"SDL/SDL.h"
+
+1450201523 source:/home/knapsu/dev/projekty/Tiny Tanks/Animation.cpp
+	"Animation.hpp"
+
+1450201471 /home/knapsu/dev/projekty/Tiny Tanks/Animation.hpp
+	"SDL/SDL.h"
+	"Renderable.hpp"
+
+1450201471 /home/knapsu/dev/projekty/Tiny Tanks/Renderable.hpp
+	"SDL/SDL.h"
+	"Collidable.hpp"
+
+1450201471 /home/knapsu/dev/projekty/Tiny Tanks/Collidable.hpp
+	"SDL/SDL.h"
+
+1450201523 source:/home/knapsu/dev/projekty/Tiny Tanks/Audio.cpp
+	"Audio.hpp"
+
+1450201471 /home/knapsu/dev/projekty/Tiny Tanks/Audio.hpp
+	"SDL/SDL.h"
+	"SDL/SDL_mixer.h"
+	<iostream>
+	<string>
+
+1450201523 source:/home/knapsu/dev/projekty/Tiny Tanks/Bullet.cpp
+	"Bullet.hpp"
+
+1450201471 /home/knapsu/dev/projekty/Tiny Tanks/Bullet.hpp
+	"SDL/SDL.h"
+	"Tank.hpp"
+
+1450201471 /home/knapsu/dev/projekty/Tiny Tanks/Tank.hpp
+	<cstdlib>
+	"SDL/SDL.h"
+	"Renderable.hpp"
+
+1450201523 source:/home/knapsu/dev/projekty/Tiny Tanks/Collidable.cpp
+	"Collidable.hpp"
+
+1450201523 source:/home/knapsu/dev/projekty/Tiny Tanks/Controls.cpp
+	"Controls.hpp"
+
+1450201471 /home/knapsu/dev/projekty/Tiny Tanks/Controls.hpp
+	"SDL/SDL.h"
+
+1450201523 source:/home/knapsu/dev/projekty/Tiny Tanks/Level.cpp
+	"Level.hpp"
+
+1450201471 /home/knapsu/dev/projekty/Tiny Tanks/Level.hpp
+	<vector>
+
+1450201523 source:/home/knapsu/dev/projekty/Tiny Tanks/Main.cpp
+	<iostream>
+	"Game.hpp"
+
+1450201471 /home/knapsu/dev/projekty/Tiny Tanks/Game.hpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<cstdlib>
+	<ctime>
+	<string>
+	<vector>
+	<map>
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	"SDL/SDL_mixer.h"
+	"SDL/SDL_ttf.h"
+	"Player.hpp"
+	"Level.hpp"
+	"Tank.hpp"
+	"Tile.hpp"
+	"Bullet.hpp"
+	"Text.hpp"
+	"Audio.hpp"
+	"Animation.hpp"
+
+1450201471 /home/knapsu/dev/projekty/Tiny Tanks/Player.hpp
+	"SDL/SDL.h"
+	"Controls.hpp"
+	"Tank.hpp"
+
+1450201471 /home/knapsu/dev/projekty/Tiny Tanks/Tile.hpp
+	"SDL/SDL.h"
+	"Renderable.hpp"
+
+1450201471 /home/knapsu/dev/projekty/Tiny Tanks/Text.hpp
+	"SDL/SDL_ttf.h"
+	<string>
+	"Renderable.hpp"
+
+1450201523 source:/home/knapsu/dev/projekty/Tiny Tanks/Player.cpp
+	"Player.hpp"
+
+1450201697 source:/home/knapsu/dev/projekty/Tiny Tanks/Tank.cpp
+	"Tank.hpp"
+
+1450201523 source:/home/knapsu/dev/projekty/Tiny Tanks/Text.cpp
+	"Text.hpp"
+
+1450201523 source:/home/knapsu/dev/projekty/Tiny Tanks/Tile.cpp
+	"Tile.hpp"
+

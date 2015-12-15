@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Tiny Tanks" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release (GCC)">
+				<Option output="tiny tanks.exe" prefix_auto="0" extension_auto="0" />
+				<Option object_output=".objs-gcc" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="0" />
+				<Compiler>
+					<Add option="-Wall -O2" />
+				</Compiler>
+			</Target>
+			<Target title="Release (LLVM)">
+				<Option output="tiny tanks.exe" prefix_auto="0" extension_auto="0" />
+				<Option object_output=".objs-vc" />
+				<Option type="0" />
+				<Option compiler="clang" />
+				<Option projectResourceIncludeDirsRelation="0" />
+				<Compiler>
+					<Add option="/GX" />
+					<Add option="/Ox" />
+					<Add option="/MD" />
+				</Compiler>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="Release (GCC);Release (LLVM);" />
+		</VirtualTargets>
+		<Compiler>
+			<Add directory="../../SDL-1.2.8/include" />
+		</Compiler>
+		<Linker>
+			<Add library="SDLmain" />
+			<Add library="SDL" />
+			<Add library="SDL_image" />
+			<Add library="SDL_mixer" />
+			<Add library="SDL_ttf" />
+			<Add directory="../../SDL-1.2.8/lib" />
+		</Linker>
+		<Unit filename="Animation.cpp" />
+		<Unit filename="Animation.hpp" />
+		<Unit filename="Audio.cpp" />
+		<Unit filename="Audio.hpp" />
+		<Unit filename="Bullet.cpp" />
+		<Unit filename="Bullet.hpp" />
+		<Unit filename="Collidable.cpp" />
+		<Unit filename="Collidable.hpp" />
+		<Unit filename="Controls.cpp" />
+		<Unit filename="Controls.hpp" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.hpp" />
+		<Unit filename="Level.cpp" />
+		<Unit filename="Level.hpp" />
+		<Unit filename="Main.cpp" />
+		<Unit filename="Player.cpp" />
+		<Unit filename="Player.hpp" />
+		<Unit filename="Renderable.hpp" />
+		<Unit filename="Tank.cpp" />
+		<Unit filename="Tank.hpp" />
+		<Unit filename="Text.cpp" />
+		<Unit filename="Text.hpp" />
+		<Unit filename="Tile.cpp" />
+		<Unit filename="Tile.hpp" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
