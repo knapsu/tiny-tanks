@@ -1,3 +1,5 @@
 build/
 .objs-*/
-*.exe
+*e.exe
+*.o
+main

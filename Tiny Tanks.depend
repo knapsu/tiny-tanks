@@ -558,3 +558,108 @@
 1450201523 source:/home/knapsu/dev/projekty/Tiny Tanks/Tile.cpp
 	"Tile.hpp"
 
+1599151994 source:/opt/dev/repository/sdl/tiny-tanks/Collidable.cpp
+	"Collidable.hpp"
+
+1599154481 /opt/dev/repository/sdl/tiny-tanks/Collidable.hpp
+	"SDL/SDL.h"
+
+1599151994 source:/opt/dev/repository/sdl/tiny-tanks/Animation.cpp
+	"Animation.hpp"
+
+1599154478 /opt/dev/repository/sdl/tiny-tanks/Animation.hpp
+	"SDL/SDL.h"
+	"Renderable.hpp"
+
+1599154489 /opt/dev/repository/sdl/tiny-tanks/Renderable.hpp
+	"SDL/SDL.h"
+	"Collidable.hpp"
+
+1599151994 source:/opt/dev/repository/sdl/tiny-tanks/Bullet.cpp
+	"Bullet.hpp"
+
+1599154466 /opt/dev/repository/sdl/tiny-tanks/Bullet.hpp
+	"SDL/SDL.h"
+	"Tank.hpp"
+
+1599154485 /opt/dev/repository/sdl/tiny-tanks/Tank.hpp
+	<cstdlib>
+	"SDL/SDL.h"
+	"Renderable.hpp"
+
+1599151994 source:/opt/dev/repository/sdl/tiny-tanks/Controls.cpp
+	"Controls.hpp"
+
+1599154492 /opt/dev/repository/sdl/tiny-tanks/Controls.hpp
+	"SDL/SDL.h"
+
+1599151994 source:/opt/dev/repository/sdl/tiny-tanks/Level.cpp
+	"Level.hpp"
+
+1599151994 /opt/dev/repository/sdl/tiny-tanks/Level.hpp
+	<vector>
+
+1599151994 source:/opt/dev/repository/sdl/tiny-tanks/Audio.cpp
+	"Audio.hpp"
+
+1599154496 /opt/dev/repository/sdl/tiny-tanks/Audio.hpp
+	"SDL/SDL.h"
+	"SDL/SDL_mixer.h"
+	<iostream>
+	<string>
+
+1599151994 source:/opt/dev/repository/sdl/tiny-tanks/Player.cpp
+	"Player.hpp"
+
+1599154499 /opt/dev/repository/sdl/tiny-tanks/Player.hpp
+	"SDL/SDL.h"
+	"Controls.hpp"
+	"Tank.hpp"
+
+1599151994 source:/opt/dev/repository/sdl/tiny-tanks/Tank.cpp
+	"Tank.hpp"
+
+1599151994 source:/opt/dev/repository/sdl/tiny-tanks/Tile.cpp
+	"Tile.hpp"
+
+1599154511 /opt/dev/repository/sdl/tiny-tanks/Tile.hpp
+	"SDL/SDL.h"
+	"Renderable.hpp"
+
+1599151994 source:/opt/dev/repository/sdl/tiny-tanks/Game.cpp
+	"Game.hpp"
+
+1599154507 /opt/dev/repository/sdl/tiny-tanks/Game.hpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<cstdlib>
+	<ctime>
+	<string>
+	<vector>
+	<map>
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	"SDL/SDL_mixer.h"
+	"SDL/SDL_ttf.h"
+	"Player.hpp"
+	"Level.hpp"
+	"Tank.hpp"
+	"Tile.hpp"
+	"Bullet.hpp"
+	"Text.hpp"
+	"Audio.hpp"
+	"Animation.hpp"
+
+1599154514 /opt/dev/repository/sdl/tiny-tanks/Text.hpp
+	"SDL/SDL_ttf.h"
+	<string>
+	"Renderable.hpp"
+
+1599151994 source:/opt/dev/repository/sdl/tiny-tanks/Main.cpp
+	<iostream>
+	"Game.hpp"
+
+1599151994 source:/opt/dev/repository/sdl/tiny-tanks/Text.cpp
+	"Text.hpp"
+

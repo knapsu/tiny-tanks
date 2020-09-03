@@ -19,7 +19,7 @@ public:
 	 * @param destination parametr typu SDL_Surface* określający miejsce wyswietlenia obiektu.
 	 */
 	virtual void Render(SDL_Surface* destination) = 0;
-	
+
 };
 
 
